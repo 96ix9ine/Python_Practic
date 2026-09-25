@@ -10,7 +10,7 @@ class DataConfig(BaseModel):
 
 
 class EDAConfig(BaseModel):
-    output_dir: str = "reports/LAB_1"
+    output_dir: str = "reports/LAB1"
     stats_filename: str = "eda_stats.csv"
     manifest_filename: str = "hash_manifest.json"
     low_variance_threshold: float = 1.0

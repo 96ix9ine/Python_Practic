@@ -1,6 +1,6 @@
 # MLflow & Data
 mlruns/
-data/
+/data/
 .pytest_cache/
 
 # Python & IDE
