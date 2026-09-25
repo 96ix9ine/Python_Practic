@@ -1,0 +1,11 @@
+# MLflow & Data
+mlruns/
+data/
+.pytest_cache/
+
+# Python & IDE
+__pycache__/
+*.pyc
+.venv/
+.env
+.vscode/

@@ -1,0 +1,27 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: black
+        entry: black
+        language: system
+        types: [python]
+
+      - id: mypy
+        name: mypy
+        entry: mypy
+        language: system
+        types: [python]
+        args: [--explicit-package-bases, --ignore-missing-imports]
+
+      - id: check-added-large-files
+        name: Check for added large files
+        entry: python -c "import sys, os; sys.exit(any(os.path.getsize(f) > 500*1024 for f in sys.argv[1:] if os.path.isfile(f)))"
+        language: system
+        types: [file]
+
+      - id: detect-private-key
+        name: Detect Private Key
+        entry: python -c "import sys, os; sys.exit(any(('PRIVATE ' + 'KEY') in open(f, errors='ignore').read() for f in sys.argv[1:] if os.path.isfile(f)))"
+        language: system
+        types: [text]
