@@ -2,6 +2,6 @@
     "data/raw/digits.csv": {
         "hash": "6e928524d187dc6e37051cde0cc17102b517fd86fae6eb3aab6b83b1bf98e729",
         "size_bytes": 497099,
-        "description": "Raw data from sklearn.datasets.load_digits"
+        "description": "Verified raw data from sklearn.datasets.load_digits"
     }
 }
