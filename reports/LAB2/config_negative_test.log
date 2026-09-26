@@ -1,0 +1,26 @@
+=== ЛОГ НЕГАТИВНЫХ ТЕСТОВ КОНФИГУРАЦИИ ===
+
+--- Случай 1: Неподдерживаемый тип модели (invalid_boost) ---
+СТАТУС: FAILED
+ОБЪЯСНЕНИЕ ОШИБКИ ВАЛИДАЦИИ:
+1 validation error for Lab2Config
+pipeline.model.model_type
+  Value error, Недопустимая модель: 'invalid_boost'. Разрешены только: ['logistic_regression', 'knn'] [type=value_error, input_value='invalid_boost', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+
+--- Случай 2: Избыточное количество компонент PCA (>64) ---
+СТАТУС: FAILED
+ОБЪЯСНЕНИЕ ОШИБКИ ВАЛИДАЦИИ:
+1 validation error for Lab2Config
+pipeline.model.pca_components
+  Input should be less than or equal to 64 [type=less_than_equal, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal
+
+--- Случай 3: Невалидный формат файла данных (требуется .csv) ---
+СТАТУС: FAILED
+ОБЪЯСНЕНИЕ ОШИБКИ ВАЛИДАЦИИ:
+1 validation error for Lab2Config
+pipeline.data_path
+  Value error, Файл данных должен быть формата .csv, получено: 'data/raw/digits.txt' [type=value_error, input_value='data/raw/digits.txt', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+
