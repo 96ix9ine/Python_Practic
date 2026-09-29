@@ -26,12 +26,9 @@ class Lab1Config(BaseModel):
 
 
 class ModelConfig(BaseModel):
-    # kNN/LogReg ± PCA
     model_type: str = "logistic_regression"
     pca_components: int = Field(default=16, ge=2, le=64)
-    alpha: float = Field(
-        default=0.0001, gt=0
-    )  # Коэффициент регуляризации для SGD/LogReg
+    alpha: float = Field(default=0.0001, gt=0)
     random_seed: int = Field(default=42, ge=0)
 
     @field_validator("model_type")
@@ -43,16 +40,32 @@ class ModelConfig(BaseModel):
         return v.lower()
 
 
+class VAEConfig(BaseModel):
+    input_dim: int = 64
+    latent_dim: int = Field(default=16, ge=2, le=32)  # Сжатие: 64->16->64
+    hidden_dim: int = Field(default=32, ge=8)
+    lr: float = Field(default=1e-3, gt=0)
+    early_stopping_patience: int = Field(default=3, ge=1)
+
+
 class PipelineConfig(BaseModel):
     data_path: str = "data/raw/digits.csv"
-    chunk_size: int = Field(
-        default=256, ge=16, le=1000
-    )  # Размер чанка для режима потока
-    batch_size: int = Field(default=128, ge=16)  # Задел под VAE из примера
+    chunk_size: int = Field(default=256, ge=16, le=1000)
+    batch_size: int = Field(default=128, ge=16)
     epochs: int = Field(default=10, ge=1)
     no_accel: bool = False
+    data_loader_mode: str = "full_memory"
 
     model: ModelConfig = ModelConfig()
+    vae: VAEConfig = VAEConfig()
+
+    @field_validator("data_loader_mode")
+    @classmethod
+    def validate_loader_mode(cls, v: str) -> str:
+        allowed = ["full_memory", "streaming"]
+        if v.lower() not in allowed:
+            raise ValueError(f"Невалидный режим загрузки: '{v}'")
+        return v.lower()
 
     @field_validator("data_path")
     @classmethod
@@ -60,9 +73,13 @@ class PipelineConfig(BaseModel):
         if not os.path.exists(v) and v == "data/raw/digits.csv":
             pass
         if not v.endswith(".csv"):
-            raise ValueError(f"Файл данных должен быть формата .csv, получено: '{v}'")
+            raise ValueError("Файл данных должен быть формата .csv")
         return v
 
 
 class Lab2Config(BaseModel):
+    pipeline: PipelineConfig = PipelineConfig()
+
+
+class Lab3Config(BaseModel):
     pipeline: PipelineConfig = PipelineConfig()
