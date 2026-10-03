@@ -54,6 +54,29 @@ class ValidatorConfig(BaseModel):
     anomaly_shift_magnitude: float = Field(default=5.0, gt=0.0)
 
 
+class GeneratorConfig(BaseModel):
+    mode: str = "similar"
+    num_samples: int = Field(default=500, ge=10, le=10000)
+    random_seed: int = Field(default=42, ge=0)
+
+    drift_mean_shift: float = Field(default=0.0, ge=0.0, le=10.0)  # Пиксели
+    drift_class_imbalance: bool = Field(
+        default=False
+    )  # Искажение долей классов (урезание редких)
+    drift_flip_labels: bool = Field(default=False)
+    drift_contrast_seasonal: float = Field(default=1.0, ge=0.1, le=3.0)
+
+    @field_validator("mode")
+    @classmethod
+    def validate_mode(cls, v: str) -> str:
+        allowed = ["similar", "random"]
+        if v.lower() not in allowed:
+            raise ValueError(
+                f"Недопустимый режим генератора: '{v}'. Разрешены: {allowed}"
+            )
+        return v.lower()
+
+
 class PipelineConfig(BaseModel):
     data_path: str = "data/raw/digits.csv"
     chunk_size: int = Field(default=256, ge=16, le=1000)
@@ -65,6 +88,7 @@ class PipelineConfig(BaseModel):
     model: ModelConfig = ModelConfig()
     vae: VAEConfig = VAEConfig()
     validator: ValidatorConfig = ValidatorConfig()
+    generator: GeneratorConfig = GeneratorConfig()
 
     @field_validator("data_loader_mode")
     @classmethod
@@ -93,4 +117,8 @@ class Lab3Config(BaseModel):
 
 
 class Lab4Config(BaseModel):
+    pipeline: PipelineConfig = PipelineConfig()
+
+
+class Lab5Config(BaseModel):
     pipeline: PipelineConfig = PipelineConfig()
