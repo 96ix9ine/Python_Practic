@@ -1,0 +1,9 @@
+{
+    "mode": "similar",
+    "num_samples": 500,
+    "random_seed": 42,
+    "drift_mean_shift": 0.0,
+    "drift_class_imbalance": false,
+    "drift_flip_labels": false,
+    "drift_contrast_seasonal": 1.0
+}
