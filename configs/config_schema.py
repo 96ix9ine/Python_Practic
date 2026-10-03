@@ -44,15 +44,15 @@ class VAEConfig(BaseModel):
     input_dim: int = 64
     latent_dim: int = Field(default=16, ge=2, le=32)  # Сжатие: 64->16->64
     hidden_dim: int = Field(default=32, ge=8)
-    lr: float = Field(default=1e-3, gt=0)
-    early_stopping_patience: int = Field(default=3, ge=1)
+    lr: float = Field(default=5e-4, gt=0)
+    early_stopping_patience: int = Field(default=5, ge=1)
 
 
 class PipelineConfig(BaseModel):
     data_path: str = "data/raw/digits.csv"
     chunk_size: int = Field(default=256, ge=16, le=1000)
     batch_size: int = Field(default=128, ge=16)
-    epochs: int = Field(default=10, ge=1)
+    epochs: int = Field(default=50, ge=1)
     no_accel: bool = False
     data_loader_mode: str = "full_memory"
 
