@@ -48,6 +48,12 @@ class VAEConfig(BaseModel):
     early_stopping_patience: int = Field(default=5, ge=1)
 
 
+class ValidatorConfig(BaseModel):
+    reconstruction_quantile: float = Field(default=0.95, ge=0.5, le=0.99)
+    max_false_rejection_rate: float = Field(default=0.05, ge=0.01, le=0.20)
+    anomaly_shift_magnitude: float = Field(default=5.0, gt=0.0)
+
+
 class PipelineConfig(BaseModel):
     data_path: str = "data/raw/digits.csv"
     chunk_size: int = Field(default=256, ge=16, le=1000)
@@ -58,6 +64,7 @@ class PipelineConfig(BaseModel):
 
     model: ModelConfig = ModelConfig()
     vae: VAEConfig = VAEConfig()
+    validator: ValidatorConfig = ValidatorConfig()
 
     @field_validator("data_loader_mode")
     @classmethod
@@ -82,4 +89,8 @@ class Lab2Config(BaseModel):
 
 
 class Lab3Config(BaseModel):
+    pipeline: PipelineConfig = PipelineConfig()
+
+
+class Lab4Config(BaseModel):
     pipeline: PipelineConfig = PipelineConfig()
