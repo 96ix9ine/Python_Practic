@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, precision_score
 from sklearn.preprocessing import StandardScaler
 
 from configs.config_schema import Lab2Config
-from src.models.pipeline import DigitsPipeline
+from src.models.ml_pipeline import SklearnIncrementalPipeline as DigitsPipeline
 
 
 def get_memory_usage_mb() -> float:
