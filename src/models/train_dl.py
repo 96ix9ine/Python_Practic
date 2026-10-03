@@ -24,6 +24,7 @@ print("INIT: Импорт локальных конфигураций проек
 from configs.config_schema import Lab3Config
 from src.data.datasets import MemoryDataset, StreamingDigitsDataset
 from src.models.vae_model import DigitsVAE, vae_loss_function
+from src.models.dl_pipeline import VAETrainer
 
 
 def get_memory_usage_mb() -> float:
@@ -69,43 +70,6 @@ def run_bootstrap_mse(
     return base_score, float(1.96 * np.std(bootstrapped_scores))
 
 
-def train_one_epoch(
-    model: nn.Module,
-    dataloader: DataLoader,
-    optimizer: optim.Optimizer,
-    device: torch.device,
-) -> float:
-    model.train()
-    total_loss = 0.0
-    samples_count = 0
-    for data, _ in dataloader:
-        data = data.to(device)
-        optimizer.zero_grad()
-        recon, mu, logvar = model(data)
-        loss = vae_loss_function(recon, data, mu, logvar)
-        loss.backward()
-        optimizer.step()
-        total_loss += loss.item()
-        samples_count += data.size(0)
-    return total_loss / samples_count
-
-
-def evaluate_loss(
-    model: nn.Module, dataloader: DataLoader, device: torch.device
-) -> float:
-    model.eval()
-    total_loss = 0.0
-    samples_count = 0
-    with torch.no_grad():
-        for data, _ in dataloader:
-            data = data.to(device)
-            recon, mu, logvar = model(data)
-            loss = vae_loss_function(recon, data, mu, logvar)
-            total_loss += loss.item()
-            samples_count += data.size(0)
-    return total_loss / samples_count
-
-
 def run_training_pipeline(mode: str, use_seed: bool = True) -> dict:
     cfg = Lab3Config()
     if use_seed:
@@ -145,7 +109,7 @@ def run_training_pipeline(mode: str, use_seed: bool = True) -> dict:
         latent_dim=cfg.pipeline.vae.latent_dim,
     ).to(device)
 
-    optimizer = optim.Adam(model.parameters(), lr=cfg.pipeline.vae.lr)
+    trainer = VAETrainer(model, cfg.pipeline.vae.lr, device)
     mem_start = get_memory_usage_mb()
     time_start = time.time()
 
@@ -157,8 +121,8 @@ def run_training_pipeline(mode: str, use_seed: bool = True) -> dict:
     history_loss: List[float] = []
 
     for epoch in range(1, cfg.pipeline.epochs + 1):
-        train_loss = train_one_epoch(model, train_loader, optimizer, device)
-        val_loss = evaluate_loss(model, val_loader, device)
+        train_loss = trainer.train_epoch(train_loader)
+        val_loss = trainer.evaluate(val_loader)
         history_loss.append(val_loss)
 
         if val_loss < best_loss:
