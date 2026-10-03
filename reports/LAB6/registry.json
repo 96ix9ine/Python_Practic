@@ -1,0 +1,26 @@
+{
+    "versions": [
+        {
+            "version": "v1.0.0",
+            "path": "reports/LAB2/ml_model_old.joblib",
+            "hash": "0010303818c116f57b479f8cb661156e3958e39cbed82a7265d6dbba901c0a2a",
+            "status": "снята",
+            "accuracy": 0.9297
+        },
+        {
+            "version": "v2.0.0",
+            "path": "reports/LAB2/ml_model.joblib",
+            "hash": "23ec6d8b682b21d61066d2ba024fb08d5d21f009f74989dc64b9cd0b0b4990ae",
+            "status": "рабочая",
+            "accuracy": 0.9297
+        },
+        {
+            "version": "v3.0.0",
+            "path": "reports/LAB2/ml_model.joblib",
+            "hash": "Тест",
+            "status": "пробная",
+            "accuracy": 0.85
+        }
+    ],
+    "active_version": "v2.0.0"
+}
