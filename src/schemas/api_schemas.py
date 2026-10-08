@@ -41,3 +41,19 @@ class VersionInfo(BaseModel):
 class RegistrySchema(BaseModel):
     versions: List[VersionInfo]
     active_version: str
+
+
+class BatchPredictRequest(BaseModel):
+    batch: List[PredictRequest] = Field(
+        ..., description="Пакет запросов для параллельного инференса"
+    )
+
+
+class BatchPredictResponse(BaseModel):
+    results: List[PredictResponse] = Field(
+        ..., description="Результаты обработки пакета"
+    )
+    processing_time_seconds: float = Field(
+        ..., description="Время параллельной обработки пакета"
+    )
+    workers_used: int = Field(..., description="Число задействованных ядер/потоков")

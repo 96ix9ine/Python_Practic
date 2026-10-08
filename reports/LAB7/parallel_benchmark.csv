@@ -1,0 +1,4 @@
+workers_used,avg_latency_seconds,throughput_samples_per_sec
+1,0.0079,25441.61
+2,0.0198,10108.02
+4,0.019,10499.41
