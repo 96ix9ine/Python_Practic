@@ -10,6 +10,10 @@ import numpy as np
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, status
 
+import multiprocessing
+from joblib import Parallel, delayed
+from src.schemas.api_schemas import BatchPredictRequest, BatchPredictResponse
+
 from src.schemas.api_schemas import PredictRequest, PredictResponse
 from src.models.validator import ImageOODValidator
 from configs.config_schema import Lab4Config
@@ -18,6 +22,8 @@ app = FastAPI(title="Digits Classification Service (Profile P2)")
 
 REGISTRY_PATH = "reports/LAB6/registry.json"
 model_lock = threading.Lock()
+
+MAX_WORKERS = multiprocessing.cpu_count()
 
 active_version_name: str = ""
 active_model: Any = None
@@ -139,6 +145,52 @@ def predict(request: PredictRequest):
 
     return PredictResponse(
         prediction=pred_class, is_anomaly=is_anomaly, model_version=local_version
+    )
+
+
+@app.post("/predict/batch", response_model=BatchPredictResponse)
+def predict_batch(request: BatchPredictRequest, n_jobs: int = 2):
+    """Пакетный инференс, обрабатывающий пачку запросов параллельно средствами joblib"""
+    start_time = time.time()
+
+    workers = min(max(1, n_jobs), MAX_WORKERS)
+
+    with model_lock:
+        local_model = active_model
+        local_validator = active_validator
+        local_version = active_version_name
+
+    if local_model is None:
+        raise HTTPException(status_code=503, detail="Model is locked or initializing")
+
+    def process_single_sample(req_item):
+        try:
+            X_single = np.array(req_item.pixels).reshape(1, -1)
+            is_anomaly = (
+                bool(local_validator.predict_rejection(X_real=X_single) == 1)
+                if local_validator
+                else False
+            )
+            pred_class = int(local_model.predict(X_single))
+            return PredictResponse(
+                prediction=pred_class,
+                is_anomaly=is_anomaly,
+                model_version=local_version,
+            )
+        except Exception as e:
+            return PredictResponse(
+                prediction=-1, is_anomaly=True, model_version="error_worker"
+            )
+
+    parallel_results = Parallel(n_jobs=workers, backend="threading")(
+        delayed(process_single_sample)(item) for item in request.batch
+    )
+
+    exec_time = time.time() - start_time
+    return BatchPredictResponse(
+        results=parallel_results,
+        processing_time_seconds=round(exec_time, 4),
+        workers_used=workers,
     )
 
 

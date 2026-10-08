@@ -1,0 +1,8 @@
+{
+    "window_size": 100,
+    "total_windows": 5,
+    "drift_detected": true,
+    "alert_triggered_window": 1,
+    "detection_delay_windows": -2,
+    "false_alerts_on_clean_stream": 2
+}

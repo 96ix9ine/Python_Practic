@@ -1,0 +1,6 @@
+window_number,stream_type,drifted_features_share,alert_triggered
+1,clean,0.3333,1
+2,clean,0.6667,1
+3,drifted,1.0,1
+4,drifted,1.0,1
+5,drifted,1.0,1
