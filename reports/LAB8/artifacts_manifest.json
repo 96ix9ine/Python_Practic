@@ -241,6 +241,36 @@
             "sha256_hash": "486109c7f061cdf46f6a5fee910054aa19f17c9962fbbeaf6391c166e14d4a75"
         },
         {
+            "file_path": "reports/LAB8/alerts_sample.jsonl",
+            "size_bytes": 492,
+            "sha256_hash": "8733efa359836339115443f3c63675540afb4871fd32e7c268d9711d29461b9c"
+        },
+        {
+            "file_path": "reports/LAB8/artifacts_manifest.json",
+            "size_bytes": 14718,
+            "sha256_hash": "0ca1a98c9955a1ec84a7f60428404f0389fe566f8556953426c46bc03fcf7549"
+        },
+        {
+            "file_path": "reports/LAB8/defense_checklist.md",
+            "size_bytes": 2737,
+            "sha256_hash": "1eb1a517c9a8f0b6b0786e271c23122342fcdd9ec22b4ef11fad51aec0c5ca52"
+        },
+        {
+            "file_path": "reports/LAB8/install.log",
+            "size_bytes": 5982,
+            "sha256_hash": "a8f097bae79819abe3874edb487cab1d7d20fcb0873eb7adde2a80cb6610fd0c"
+        },
+        {
+            "file_path": "reports/LAB8/lab8_report.md",
+            "size_bytes": 6959,
+            "sha256_hash": "cd59475bfe3af6e33ff16f33be330a269edce2119b7a913b7c822a20d330ab79"
+        },
+        {
+            "file_path": "reports/LAB8/source_metrics_compare.csv",
+            "size_bytes": 178,
+            "sha256_hash": "994287047ee28e16375cce63a9784e37e52c9ab7ab04d9301e6176c7eaf772aa"
+        },
+        {
             "file_path": "configs/config_schema.py",
             "size_bytes": 4107,
             "sha256_hash": "8ae18d8a5a0d48c49d1caf5fe2b48783ef22572dc40e12f8724b57c0e2c90d25"
@@ -332,8 +362,8 @@
         },
         {
             "file_path": "src/utils/alerts.py",
-            "size_bytes": 2797,
-            "sha256_hash": "e95b11bd3ea73a2e6e845f64133142c0b27311fbb90b594d229493a9e63d605e"
+            "size_bytes": 2117,
+            "sha256_hash": "f798148ed87adbc0bffedab1cb94c2b508b0d1589f615ac5841b61dbfeec3d0e"
         },
         {
             "file_path": "src/utils/drift_monitor.py",
@@ -342,8 +372,8 @@
         },
         {
             "file_path": "src/utils/manifest_builder.py",
-            "size_bytes": 2029,
-            "sha256_hash": "bae5a849197b5acdf3122727c4706b97c4ec5c95441e71e57a7d2f1749c875f3"
+            "size_bytes": 1852,
+            "sha256_hash": "939e2c3d9b67a5d78ec3ce853edafce4fe734db15ad5331eddc79734398159f9"
         },
         {
             "file_path": "src/utils/metrics_compare.py",
@@ -359,6 +389,11 @@
             "file_path": "src/utils/parallel_benchmark.py",
             "size_bytes": 1968,
             "sha256_hash": "311c2a59e17feca20477288603d8c9e94df4c816e6dba8a96d9e969b23a453f4"
+        },
+        {
+            "file_path": "src/utils/run_all_drills.py",
+            "size_bytes": 3489,
+            "sha256_hash": "8914302e521225cdc84bfafc40570b2a8d4857bbacd8584e4b86f96d81ceb069"
         }
     ]
 }

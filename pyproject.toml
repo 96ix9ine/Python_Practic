@@ -38,6 +38,8 @@ serve-api = "src.api.service:main"
 monitor-run = "src.api.monitor:run_monitoring_session"
 drift-check = "src.utils.drift_monitor:run_drift_monitoring"
 build-manifest = "src.utils.manifest_builder:main"
+test-generator = "pytest:main"
+test-api = "pytest:main"
 
 [tool.setuptools]
 package-dir = {"" = "."}
