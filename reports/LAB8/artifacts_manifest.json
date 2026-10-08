@@ -62,8 +62,8 @@
         },
         {
             "file_path": "reports/LAB2/ml_metrics.csv",
-            "size_bytes": 224,
-            "sha256_hash": "f612d935935569fd8ae892dd2ad634d410a0a61183cf2d47c7a5294f9819636a"
+            "size_bytes": 228,
+            "sha256_hash": "1d3dda02939ddda9ac41bc53c2dc837480e8252f097f8763a71d4c1e5a0c2fb9"
         },
         {
             "file_path": "reports/LAB2/ml_model.joblib",
@@ -82,8 +82,8 @@
         },
         {
             "file_path": "reports/LAB3/dl_metrics.csv",
-            "size_bytes": 199,
-            "sha256_hash": "e87f5ddd8ee0945fddc1211161aba7e22008d3522febeba288b227531f2a167e"
+            "size_bytes": 203,
+            "sha256_hash": "853d2c72304b4f9fc88872c454ce159478ba6cf3edde810b1de1699d4f20557a"
         },
         {
             "file_path": "reports/LAB3/dl_model.pt",
@@ -97,8 +97,8 @@
         },
         {
             "file_path": "reports/LAB3/memory_compare.csv",
-            "size_bytes": 69,
-            "sha256_hash": "d46659678faf889a692542d971ff085a557799b0c1651c62e66344bc72d97dda"
+            "size_bytes": 73,
+            "sha256_hash": "4310aaf59fadbee9ccf9337fe5fe97f0b49e15dd5dbef62e621f05ca4f0e8f07"
         },
         {
             "file_path": "reports/LAB3/student_comment.md",
@@ -127,13 +127,13 @@
         },
         {
             "file_path": "reports/LAB4/validator_metrics.csv",
-            "size_bytes": 270,
-            "sha256_hash": "cc45d1f71c520e809e3ec67af213e9906b3ab7b4f926a521bc0ae1b8570409a6"
+            "size_bytes": 272,
+            "sha256_hash": "69965273ca1158551e927ee086c21385c9914b0fa2e1fecaff4ae76babefe0eb"
         },
         {
             "file_path": "reports/LAB4/validator_negative.log",
-            "size_bytes": 785,
-            "sha256_hash": "cd5f4e5a6f70ee72b2c70ce5c5f4ca603cc003d208eb04c00df6a707b10ee101"
+            "size_bytes": 794,
+            "sha256_hash": "e43073185c8be9ea19287b759269f72421d1e948f551ed87cb8f211f2902927c"
         },
         {
             "file_path": "reports/LAB4/validator_params.npz",
@@ -147,8 +147,8 @@
         },
         {
             "file_path": "reports/LAB5/generator_config.json",
-            "size_bytes": 205,
-            "sha256_hash": "6ccc437d11eb73a58628a6a058e0ea51605b89584735f4106b8cb75168c5a2b5"
+            "size_bytes": 213,
+            "sha256_hash": "171ed2ffccbfe09483265279d2162cb2eac13c0c72b25a0bfb84a3c37c61d21e"
         },
         {
             "file_path": "reports/LAB5/generator_tests.log",
@@ -167,8 +167,8 @@
         },
         {
             "file_path": "reports/LAB5/synthetic_metrics.csv",
-            "size_bytes": 4961,
-            "sha256_hash": "729b11fd26f2c4ade1c974a64019d5ae9e6c5458475249e751cc547b2b0f42c1"
+            "size_bytes": 5026,
+            "sha256_hash": "72356f5d9ac99eb2b9ca907cf07c21810a2368e207a3f3afe3fb12ee43348840"
         },
         {
             "file_path": "reports/LAB6/ai_review.md",
@@ -182,18 +182,18 @@
         },
         {
             "file_path": "reports/LAB6/monitor_state.json",
-            "size_bytes": 143,
-            "sha256_hash": "d0348984d99eecf64478521569bcb0a3db51ea3bbac005165a3053d795dfd783"
+            "size_bytes": 148,
+            "sha256_hash": "6fb3795645f0cac3cb5cdec06ab319176bda355b68e5febfbf71c4dc71abf210"
         },
         {
             "file_path": "reports/LAB6/registry.json",
-            "size_bytes": 795,
-            "sha256_hash": "85fcc854b979a896da65646188fa9587035d3c4982c7f7bd817b846a5cb48df5"
+            "size_bytes": 820,
+            "sha256_hash": "018acbb3dbb634147eac4c72ff7cbf229d4e5c61c1b1bf8348a8ea4dab64f383"
         },
         {
             "file_path": "reports/LAB6/service_monitoring_chart.png",
-            "size_bytes": 45222,
-            "sha256_hash": "83c122119da43b9ade614ccf2cf10d57e86498ca090cb970a0b68300d7da4064"
+            "size_bytes": 42986,
+            "sha256_hash": "46441219cad6c3832248ed53a1ca4034ffde120b27b8990dc470f76fa743f562"
         },
         {
             "file_path": "reports/LAB6/service_tests.log",
@@ -212,18 +212,18 @@
         },
         {
             "file_path": "reports/LAB7/drift_metrics.csv",
-            "size_bytes": 147,
-            "sha256_hash": "53bfffbca530de515af6afa8dbd70a53804e6f74fce5541d9e090fa0746b82bc"
+            "size_bytes": 153,
+            "sha256_hash": "6f2c308a2ec20f018753831c059b007326d397bab7a3c767ce001b369049b46e"
         },
         {
             "file_path": "reports/LAB7/drift_summary.json",
-            "size_bytes": 185,
-            "sha256_hash": "cde389d4cfaf7739ca574274298a721664e5fd1322beaae6065a64f4072fe5f9"
+            "size_bytes": 192,
+            "sha256_hash": "dbd9424c3439980f06bf61ebade19282f96604bc70533a8498332f5c6e02ee12"
         },
         {
             "file_path": "reports/LAB7/evidently_drift_report.html",
-            "size_bytes": 3804361,
-            "sha256_hash": "a5eff8961190bf369a95869540c7a2b467c72431a6b7c987cf8379d354e40eb6"
+            "size_bytes": 3805221,
+            "sha256_hash": "8684f027d46d055b092aa46d23db13e704465dba4d324a83935f90a0971dc047"
         },
         {
             "file_path": "reports/LAB7/lab7_report.md",
@@ -247,8 +247,8 @@
         },
         {
             "file_path": "reports/LAB8/artifacts_manifest.json",
-            "size_bytes": 14718,
-            "sha256_hash": "0ca1a98c9955a1ec84a7f60428404f0389fe566f8556953426c46bc03fcf7549"
+            "size_bytes": 16565,
+            "sha256_hash": "e9c5e25645ac6e2096cfc1b04c335e63aa9a76c0bcb3a082ef1301c912503e20"
         },
         {
             "file_path": "reports/LAB8/defense_checklist.md",
@@ -282,8 +282,8 @@
         },
         {
             "file_path": "src/api/service.py",
-            "size_bytes": 8752,
-            "sha256_hash": "5a251f598bfbad41b49567cd97521c12f26cf3b77f5f1e3b3d64c577cfe4b7b9"
+            "size_bytes": 9015,
+            "sha256_hash": "ef57497737a633bf78d64e43b50ab321d0928809e3052d40b761fafe6069a900"
         },
         {
             "file_path": "src/data/datasets.py",
