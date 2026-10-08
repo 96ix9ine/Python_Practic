@@ -9,6 +9,7 @@ import joblib
 import numpy as np
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, status
+import uvicorn
 
 import multiprocessing
 from joblib import Parallel, delayed
@@ -260,3 +261,12 @@ def promote_model(version: str):
 def rollback_model(version: str):
     """Откат версии под нагрузкой без простоя"""
     return promote_model(version)
+
+
+def main():
+    """Точка входа для запуска ASGI-сервера uvicorn через CLI-команду"""
+    uvicorn.run("src.api.service:app", host="127.0.0.1", port=8000, reload=False)
+
+
+if __name__ == "__main__":
+    main()

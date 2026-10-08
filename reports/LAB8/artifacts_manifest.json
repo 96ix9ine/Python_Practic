@@ -1,0 +1,399 @@
+{
+    "artifacts": [
+        {
+            "file_path": "reports/LAB1/ai_review.md",
+            "size_bytes": 4216,
+            "sha256_hash": "00d53ca5211edb71aaa4bed9ede1182f9612aefdedf26f0fb71f559b61200e45"
+        },
+        {
+            "file_path": "reports/LAB1/class_distribution.csv",
+            "size_bytes": 296,
+            "sha256_hash": "373af5ef35a698e5c7aee54b11a26c27c32583bb4b6284a78f853802f3c44d75"
+        },
+        {
+            "file_path": "reports/LAB1/digits_grid.png",
+            "size_bytes": 10298,
+            "sha256_hash": "562a3e59bb914c49a306393fd1cf17901b0fd1b06e49e3e34942c0bcd5d0cce8"
+        },
+        {
+            "file_path": "reports/LAB1/eda_stats.csv",
+            "size_bytes": 6201,
+            "sha256_hash": "2ee3822fc3669d7d339165b0b727490519eb7f3f6ed20445428d825f0c2f7d41"
+        },
+        {
+            "file_path": "reports/LAB1/hash_manifest.json",
+            "size_bytes": 229,
+            "sha256_hash": "c8e7f3664d92cbd7936a9d55974a2991b4319494e744371290d4c561960b0a74"
+        },
+        {
+            "file_path": "reports/LAB1/lab1_report.md",
+            "size_bytes": 3543,
+            "sha256_hash": "2a93cc64a354bd1bfaced70256dff6671e63c17509e0809ac7354477ced21f8e"
+        },
+        {
+            "file_path": "reports/LAB1/precommit_block.log",
+            "size_bytes": 1130,
+            "sha256_hash": "d05afe1b39a52dae8068ab899e4c02c1aa9279889929cef07d3fa0658758a61f"
+        },
+        {
+            "file_path": "reports/LAB1/problem_dimension.png",
+            "size_bytes": 39544,
+            "sha256_hash": "f09362f5f36109d588b845195882397097b983f089e3f988beb6bce5bb04330d"
+        },
+        {
+            "file_path": "reports/LAB1/student_comment.md",
+            "size_bytes": 2848,
+            "sha256_hash": "ceee3aa530a76a3337d6f48e88ef3bf399ac7bf5bf4a8f4475fe858c831e0cd6"
+        },
+        {
+            "file_path": "reports/LAB2/ai_review.md",
+            "size_bytes": 2591,
+            "sha256_hash": "77024b670056af1831fbef804bd141ab113fba4f9d5fb7671b00e75ae70e8170"
+        },
+        {
+            "file_path": "reports/LAB2/config_negative_test.log",
+            "size_bytes": 1511,
+            "sha256_hash": "2877d40b08381b322c6e19cdcede7fb2660c4ffba93f3a1e778baf1f963380d0"
+        },
+        {
+            "file_path": "reports/LAB2/lab2_report.md",
+            "size_bytes": 4683,
+            "sha256_hash": "7ee0067b28e3c7f9d4c17f3ea86e6536106430df2d141602beb2d28bad3ed4db"
+        },
+        {
+            "file_path": "reports/LAB2/ml_metrics.csv",
+            "size_bytes": 228,
+            "sha256_hash": "1d3dda02939ddda9ac41bc53c2dc837480e8252f097f8763a71d4c1e5a0c2fb9"
+        },
+        {
+            "file_path": "reports/LAB2/ml_model.joblib",
+            "size_bytes": 15251,
+            "sha256_hash": "23ec6d8b682b21d61066d2ba024fb08d5d21f009f74989dc64b9cd0b0b4990ae"
+        },
+        {
+            "file_path": "reports/LAB2/student_comment.md",
+            "size_bytes": 1328,
+            "sha256_hash": "416d6a49fa44e9abbc6ee687c1e3d8ba5c5c9d43580c7b260167f8a702064c3a"
+        },
+        {
+            "file_path": "reports/LAB3/ai_review.md",
+            "size_bytes": 1761,
+            "sha256_hash": "6a34fcd6065e4685e8568e594355f18fc3975e52a19bc62328e1735ee2d59939"
+        },
+        {
+            "file_path": "reports/LAB3/dl_metrics.csv",
+            "size_bytes": 203,
+            "sha256_hash": "853d2c72304b4f9fc88872c454ce159478ba6cf3edde810b1de1699d4f20557a"
+        },
+        {
+            "file_path": "reports/LAB3/dl_model.pt",
+            "size_bytes": 27221,
+            "sha256_hash": "74059d201867f83dccae72b838847e074f1905e316dcaeb223d7780cb0fd1e32"
+        },
+        {
+            "file_path": "reports/LAB3/lab3_report.md",
+            "size_bytes": 4690,
+            "sha256_hash": "5128dbbe8d11629da4e921bd229fd8d5737affb3b8a29ec61a4c2ad7abadb4c9"
+        },
+        {
+            "file_path": "reports/LAB3/memory_compare.csv",
+            "size_bytes": 73,
+            "sha256_hash": "4310aaf59fadbee9ccf9337fe5fe97f0b49e15dd5dbef62e621f05ca4f0e8f07"
+        },
+        {
+            "file_path": "reports/LAB3/student_comment.md",
+            "size_bytes": 985,
+            "sha256_hash": "623cce9865abad5e30040cfd7a19411721692485581bcb8b88e54f1d7036a33c"
+        },
+        {
+            "file_path": "reports/LAB3/vae_learning_curves.png",
+            "size_bytes": 37336,
+            "sha256_hash": "4da9ddd45779e672593f3bb1421de1c6fbf817f8f280ebab4e2bc59f2ccd7f62"
+        },
+        {
+            "file_path": "reports/LAB4/ai_review.md",
+            "size_bytes": 1786,
+            "sha256_hash": "8c8d2b1c136b4dc09e325ed68fbb408ee9fd1e2e188feccd0542fca35be416bf"
+        },
+        {
+            "file_path": "reports/LAB4/lab4_report.md",
+            "size_bytes": 4056,
+            "sha256_hash": "973ace47ec31ffc41b02b138654dc1b25e45ae20e5aef46ebd18a503ef8e0467"
+        },
+        {
+            "file_path": "reports/LAB4/student_comment.md",
+            "size_bytes": 1155,
+            "sha256_hash": "519b1f5b1652a9bae5a36c264ec1d2c4759f767896f7299d99a77f0a2fc7f963"
+        },
+        {
+            "file_path": "reports/LAB4/validator_metrics.csv",
+            "size_bytes": 272,
+            "sha256_hash": "69965273ca1158551e927ee086c21385c9914b0fa2e1fecaff4ae76babefe0eb"
+        },
+        {
+            "file_path": "reports/LAB4/validator_negative.log",
+            "size_bytes": 794,
+            "sha256_hash": "e43073185c8be9ea19287b759269f72421d1e948f551ed87cb8f211f2902927c"
+        },
+        {
+            "file_path": "reports/LAB4/validator_params.npz",
+            "size_bytes": 544,
+            "sha256_hash": "43857da44573ac4094c30248e5d4f21c4c4ff38e55b9a233c64cd3f4590af372"
+        },
+        {
+            "file_path": "reports/LAB5/ai_review.md",
+            "size_bytes": 933,
+            "sha256_hash": "fb081efe851d1dad00c7d8f11b157895163b49993795c2fe56ace8c163c4a4df"
+        },
+        {
+            "file_path": "reports/LAB5/generator_config.json",
+            "size_bytes": 213,
+            "sha256_hash": "171ed2ffccbfe09483265279d2162cb2eac13c0c72b25a0bfb84a3c37c61d21e"
+        },
+        {
+            "file_path": "reports/LAB5/generator_tests.log",
+            "size_bytes": 2652,
+            "sha256_hash": "0b4d5e9e574b7a7f3713464ca1d97ab7b9600fe9c635dc6d051be861406ff229"
+        },
+        {
+            "file_path": "reports/LAB5/lab5_report.md",
+            "size_bytes": 4535,
+            "sha256_hash": "e1371b19dd2d92ed955e7e27c494aa87cb2286b6384c3e857be8d163f2bb3738"
+        },
+        {
+            "file_path": "reports/LAB5/student_comment.md",
+            "size_bytes": 997,
+            "sha256_hash": "96b9b5ed143a9515ff24ef1200e7b820de936bacc19e5e1e6f36bcf55b42bbf1"
+        },
+        {
+            "file_path": "reports/LAB5/synthetic_metrics.csv",
+            "size_bytes": 5026,
+            "sha256_hash": "72356f5d9ac99eb2b9ca907cf07c21810a2368e207a3f3afe3fb12ee43348840"
+        },
+        {
+            "file_path": "reports/LAB6/ai_review.md",
+            "size_bytes": 705,
+            "sha256_hash": "fb21f5acf81fb7d5dd32e8f5e7119d010287c150630eb3237f2f70765f114fb2"
+        },
+        {
+            "file_path": "reports/LAB6/lab6_report.md",
+            "size_bytes": 4909,
+            "sha256_hash": "fc286b4d52d72fec0aab2805b381648eb50a8f8e8be651152edf2eeef09a3e2c"
+        },
+        {
+            "file_path": "reports/LAB6/monitor_state.json",
+            "size_bytes": 148,
+            "sha256_hash": "6fb3795645f0cac3cb5cdec06ab319176bda355b68e5febfbf71c4dc71abf210"
+        },
+        {
+            "file_path": "reports/LAB6/registry.json",
+            "size_bytes": 820,
+            "sha256_hash": "018acbb3dbb634147eac4c72ff7cbf229d4e5c61c1b1bf8348a8ea4dab64f383"
+        },
+        {
+            "file_path": "reports/LAB6/service_monitoring_chart.png",
+            "size_bytes": 42986,
+            "sha256_hash": "46441219cad6c3832248ed53a1ca4034ffde120b27b8990dc470f76fa743f562"
+        },
+        {
+            "file_path": "reports/LAB6/service_tests.log",
+            "size_bytes": 3414,
+            "sha256_hash": "7a597f3e1fcc2b0ab5deaf123ea211b3b4653686e8f6c5b2d8a126844f0f6854"
+        },
+        {
+            "file_path": "reports/LAB6/student_comment.md",
+            "size_bytes": 612,
+            "sha256_hash": "db5ba54bfe2108866e48198da05fbc27d66451f45a8000a6ab869867dd08c5b9"
+        },
+        {
+            "file_path": "reports/LAB7/ai_review.md",
+            "size_bytes": 747,
+            "sha256_hash": "531393a73e73d792ed9dd01fe2ad32c6c3ab1650b88d943c430e8b37f947e5ee"
+        },
+        {
+            "file_path": "reports/LAB7/drift_metrics.csv",
+            "size_bytes": 153,
+            "sha256_hash": "6f2c308a2ec20f018753831c059b007326d397bab7a3c767ce001b369049b46e"
+        },
+        {
+            "file_path": "reports/LAB7/drift_summary.json",
+            "size_bytes": 192,
+            "sha256_hash": "dbd9424c3439980f06bf61ebade19282f96604bc70533a8498332f5c6e02ee12"
+        },
+        {
+            "file_path": "reports/LAB7/evidently_drift_report.html",
+            "size_bytes": 3805221,
+            "sha256_hash": "8684f027d46d055b092aa46d23db13e704465dba4d324a83935f90a0971dc047"
+        },
+        {
+            "file_path": "reports/LAB7/lab7_report.md",
+            "size_bytes": 5861,
+            "sha256_hash": "86c63a3457dea8f04e6c71f05ec78c0d366d0bd1ba362bb77d7cf2fcf0f6ac88"
+        },
+        {
+            "file_path": "reports/LAB7/parallel_benchmark.csv",
+            "size_bytes": 113,
+            "sha256_hash": "14dd802f1adf6ed551e78c28f281e957d0c2e5baaca8428035b306f1818e96d3"
+        },
+        {
+            "file_path": "reports/LAB7/student_comment.md",
+            "size_bytes": 909,
+            "sha256_hash": "486109c7f061cdf46f6a5fee910054aa19f17c9962fbbeaf6391c166e14d4a75"
+        },
+        {
+            "file_path": "reports/LAB8/alerts_sample.jsonl",
+            "size_bytes": 492,
+            "sha256_hash": "8733efa359836339115443f3c63675540afb4871fd32e7c268d9711d29461b9c"
+        },
+        {
+            "file_path": "reports/LAB8/artifacts_manifest.json",
+            "size_bytes": 16565,
+            "sha256_hash": "e9c5e25645ac6e2096cfc1b04c335e63aa9a76c0bcb3a082ef1301c912503e20"
+        },
+        {
+            "file_path": "reports/LAB8/defense_checklist.md",
+            "size_bytes": 2737,
+            "sha256_hash": "1eb1a517c9a8f0b6b0786e271c23122342fcdd9ec22b4ef11fad51aec0c5ca52"
+        },
+        {
+            "file_path": "reports/LAB8/install.log",
+            "size_bytes": 5982,
+            "sha256_hash": "a8f097bae79819abe3874edb487cab1d7d20fcb0873eb7adde2a80cb6610fd0c"
+        },
+        {
+            "file_path": "reports/LAB8/lab8_report.md",
+            "size_bytes": 6959,
+            "sha256_hash": "cd59475bfe3af6e33ff16f33be330a269edce2119b7a913b7c822a20d330ab79"
+        },
+        {
+            "file_path": "reports/LAB8/source_metrics_compare.csv",
+            "size_bytes": 178,
+            "sha256_hash": "994287047ee28e16375cce63a9784e37e52c9ab7ab04d9301e6176c7eaf772aa"
+        },
+        {
+            "file_path": "configs/config_schema.py",
+            "size_bytes": 4107,
+            "sha256_hash": "8ae18d8a5a0d48c49d1caf5fe2b48783ef22572dc40e12f8724b57c0e2c90d25"
+        },
+        {
+            "file_path": "src/api/monitor.py",
+            "size_bytes": 2026,
+            "sha256_hash": "b39cdd5b1f56b6076a5c07c6961cbf99a313f1acc78cad1a45a40821dbc64f36"
+        },
+        {
+            "file_path": "src/api/service.py",
+            "size_bytes": 9015,
+            "sha256_hash": "ef57497737a633bf78d64e43b50ab321d0928809e3052d40b761fafe6069a900"
+        },
+        {
+            "file_path": "src/data/datasets.py",
+            "size_bytes": 1774,
+            "sha256_hash": "a8f1db3edff9accec38c7d9cd995c17f184aaaee54b14c2cc953d2bf14f4bcae"
+        },
+        {
+            "file_path": "src/data/download_data.py",
+            "size_bytes": 2372,
+            "sha256_hash": "00ace12bb3d4422a2fb251472ffcdc3a9a045df747088c2cedc31e1e3a41d161"
+        },
+        {
+            "file_path": "src/data/synthetic_generator.py",
+            "size_bytes": 2085,
+            "sha256_hash": "a6b0ae472689b7e5c3ecc3d9d0fc8b00c19efd754a8fa234ba28227c9197f6d6"
+        },
+        {
+            "file_path": "src/data/train_generator.py",
+            "size_bytes": 3995,
+            "sha256_hash": "fd04d587291e5135aa87e507f29df0d8d0e82485f0785b0d8e484e1fe3d3fd69"
+        },
+        {
+            "file_path": "src/features/eda.py",
+            "size_bytes": 4109,
+            "sha256_hash": "1a28df39b37a673be98044a64f4969e08c47481c0ed0cc763fcc37b1d003940f"
+        },
+        {
+            "file_path": "src/models/dl_pipeline.py",
+            "size_bytes": 1742,
+            "sha256_hash": "dd7e024b84b69cbbe893a2f7917f62746186f84a0eddb38489d16553ee3e7ef9"
+        },
+        {
+            "file_path": "src/models/ml_pipeline.py",
+            "size_bytes": 1961,
+            "sha256_hash": "5716243ac245f89f8e1a87bd5a7e5889c0feb5ccaeb5022ce0c3497dba09f53a"
+        },
+        {
+            "file_path": "src/models/train.py",
+            "size_bytes": 8574,
+            "sha256_hash": "debb4d55c991a2ff0408f3755fac6b721d39250bf041e40cddd2e28304f27548"
+        },
+        {
+            "file_path": "src/models/train_dl.py",
+            "size_bytes": 10462,
+            "sha256_hash": "94e3d939ad0e0f475dcf501823b367b8aca87a71e3f535b3fdf82aee476960a6"
+        },
+        {
+            "file_path": "src/models/train_validator.py",
+            "size_bytes": 7490,
+            "sha256_hash": "4d16cddabf09961c63f6a4f6842d05d98efc5088084a07b150dfe0c2ef4cfb20"
+        },
+        {
+            "file_path": "src/models/vae_model.py",
+            "size_bytes": 1503,
+            "sha256_hash": "e39619a1320c8f12f43f46d974e6f197f0c9456907c6072a4467c66f722e18a7"
+        },
+        {
+            "file_path": "src/models/validator.py",
+            "size_bytes": 3008,
+            "sha256_hash": "d73b232306a40bd706995aa198b145b5fb2b4db8aef0873d9bb4c420499d4b27"
+        },
+        {
+            "file_path": "src/schemas/api_schemas.py",
+            "size_bytes": 2152,
+            "sha256_hash": "8c84dc3640043d0f1b5f7850d4fa4a1a5b02050ac2e4ceec880f67f24d2052f0"
+        },
+        {
+            "file_path": "src/tests/test_api.py",
+            "size_bytes": 2058,
+            "sha256_hash": "64b29c3de970d5e8519fc082520089c7a2b45947ed2c521aa0cec8c8f6a3c93a"
+        },
+        {
+            "file_path": "src/tests/test_generator.py",
+            "size_bytes": 1918,
+            "sha256_hash": "1c35d73ea7150a76f1d2f0e67ada61a13def6540e7ac8c3b14be0bb4b81cf90c"
+        },
+        {
+            "file_path": "src/utils/alerts.py",
+            "size_bytes": 2117,
+            "sha256_hash": "f798148ed87adbc0bffedab1cb94c2b508b0d1589f615ac5841b61dbfeec3d0e"
+        },
+        {
+            "file_path": "src/utils/drift_monitor.py",
+            "size_bytes": 3746,
+            "sha256_hash": "cf92f9bcf51771b1dffc65f8e52b2f499c0d1459c88dc7aca638e29b13c67835"
+        },
+        {
+            "file_path": "src/utils/manifest_builder.py",
+            "size_bytes": 1852,
+            "sha256_hash": "939e2c3d9b67a5d78ec3ce853edafce4fe734db15ad5331eddc79734398159f9"
+        },
+        {
+            "file_path": "src/utils/metrics_compare.py",
+            "size_bytes": 1348,
+            "sha256_hash": "a1f0ca05f66e152fa742070ab60a7fa37803330206db06ba9b8f0969fa14c867"
+        },
+        {
+            "file_path": "src/utils/negative_config_test.py",
+            "size_bytes": 2047,
+            "sha256_hash": "2d27ac1ce836fc115b63fcc8fe2f4d10fb8abfe9a4ea90608dfb92e726272528"
+        },
+        {
+            "file_path": "src/utils/parallel_benchmark.py",
+            "size_bytes": 1968,
+            "sha256_hash": "311c2a59e17feca20477288603d8c9e94df4c816e6dba8a96d9e969b23a453f4"
+        },
+        {
+            "file_path": "src/utils/run_all_drills.py",
+            "size_bytes": 3489,
+            "sha256_hash": "8914302e521225cdc84bfafc40570b2a8d4857bbacd8584e4b86f96d81ceb069"
+        }
+    ]
+}
