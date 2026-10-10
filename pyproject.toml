@@ -40,6 +40,9 @@ drift-check = "src.utils.drift_monitor:run_drift_monitoring"
 build-manifest = "src.utils.manifest_builder:main"
 test-generator = "pytest:main"
 test-api = "pytest:main"
+test-stress = "src.tests.test_stress:run_stress_test"
+
+run-drill = "src.utils.integration_drill:main"
 
 [tool.setuptools]
 package-dir = {"" = "."}
