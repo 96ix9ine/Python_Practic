@@ -62,8 +62,8 @@
         },
         {
             "file_path": "reports/LAB2/ml_metrics.csv",
-            "size_bytes": 228,
-            "sha256_hash": "1d3dda02939ddda9ac41bc53c2dc837480e8252f097f8763a71d4c1e5a0c2fb9"
+            "size_bytes": 225,
+            "sha256_hash": "4d75bb06087e1681b54bfa7fe7771fe1ad9c9d22fb7ea69b23d7591f7eb1d3a7"
         },
         {
             "file_path": "reports/LAB2/ml_model.joblib",
@@ -82,8 +82,8 @@
         },
         {
             "file_path": "reports/LAB3/dl_metrics.csv",
-            "size_bytes": 203,
-            "sha256_hash": "853d2c72304b4f9fc88872c454ce159478ba6cf3edde810b1de1699d4f20557a"
+            "size_bytes": 200,
+            "sha256_hash": "f26b3bac42b2f61a7eb33383a8dbece3b9f11de3be1faf92182f7e4da4ee575c"
         },
         {
             "file_path": "reports/LAB3/dl_model.pt",
@@ -97,8 +97,8 @@
         },
         {
             "file_path": "reports/LAB3/memory_compare.csv",
-            "size_bytes": 73,
-            "sha256_hash": "4310aaf59fadbee9ccf9337fe5fe97f0b49e15dd5dbef62e621f05ca4f0e8f07"
+            "size_bytes": 70,
+            "sha256_hash": "24478414451533a7854fa3454f60fc5334be232e3d6751924ff1325a54b51936"
         },
         {
             "file_path": "reports/LAB3/student_comment.md",
@@ -127,8 +127,8 @@
         },
         {
             "file_path": "reports/LAB4/validator_metrics.csv",
-            "size_bytes": 272,
-            "sha256_hash": "69965273ca1158551e927ee086c21385c9914b0fa2e1fecaff4ae76babefe0eb"
+            "size_bytes": 269,
+            "sha256_hash": "3aa1dfa52b4d12d5f5f7d25d2a84ba36bb9c0a26d9030df21b56f15d721e0095"
         },
         {
             "file_path": "reports/LAB4/validator_negative.log",
@@ -182,8 +182,8 @@
         },
         {
             "file_path": "reports/LAB6/monitor_state.json",
-            "size_bytes": 148,
-            "sha256_hash": "6fb3795645f0cac3cb5cdec06ab319176bda355b68e5febfbf71c4dc71abf210"
+            "size_bytes": 152,
+            "sha256_hash": "cc2e9aaec12c4ab946254b8f3f71a879c28ae2d53748fb34364731e5fe5d8f5d"
         },
         {
             "file_path": "reports/LAB6/registry.json",
@@ -192,13 +192,13 @@
         },
         {
             "file_path": "reports/LAB6/service_monitoring_chart.png",
-            "size_bytes": 42986,
-            "sha256_hash": "46441219cad6c3832248ed53a1ca4034ffde120b27b8990dc470f76fa743f562"
+            "size_bytes": 42444,
+            "sha256_hash": "c7c0fa5c38a986523a83472cb16734414658d75d964fd78b3eec0d53e5cc2ffd"
         },
         {
             "file_path": "reports/LAB6/service_tests.log",
-            "size_bytes": 3414,
-            "sha256_hash": "7a597f3e1fcc2b0ab5deaf123ea211b3b4653686e8f6c5b2d8a126844f0f6854"
+            "size_bytes": 1563,
+            "sha256_hash": "bcd69e01cc2cc1b2597da1e35f61b131b452eea84f73739a7352ee29773106ad"
         },
         {
             "file_path": "reports/LAB6/student_comment.md",
@@ -212,18 +212,18 @@
         },
         {
             "file_path": "reports/LAB7/drift_metrics.csv",
-            "size_bytes": 153,
-            "sha256_hash": "6f2c308a2ec20f018753831c059b007326d397bab7a3c767ce001b369049b46e"
+            "size_bytes": 147,
+            "sha256_hash": "53bfffbca530de515af6afa8dbd70a53804e6f74fce5541d9e090fa0746b82bc"
         },
         {
             "file_path": "reports/LAB7/drift_summary.json",
-            "size_bytes": 192,
-            "sha256_hash": "dbd9424c3439980f06bf61ebade19282f96604bc70533a8498332f5c6e02ee12"
+            "size_bytes": 185,
+            "sha256_hash": "cde389d4cfaf7739ca574274298a721664e5fd1322beaae6065a64f4072fe5f9"
         },
         {
             "file_path": "reports/LAB7/evidently_drift_report.html",
-            "size_bytes": 3805221,
-            "sha256_hash": "8684f027d46d055b092aa46d23db13e704465dba4d324a83935f90a0971dc047"
+            "size_bytes": 3804361,
+            "sha256_hash": "97b9ba466415d6bdc367de31b57f2c9650697f38aade73a0f3e9753204ef1123"
         },
         {
             "file_path": "reports/LAB7/lab7_report.md",
@@ -242,18 +242,18 @@
         },
         {
             "file_path": "reports/LAB8/alerts_sample.jsonl",
-            "size_bytes": 492,
-            "sha256_hash": "8733efa359836339115443f3c63675540afb4871fd32e7c268d9711d29461b9c"
+            "size_bytes": 489,
+            "sha256_hash": "060d3bda24288f8e6ab679a6c726868be946acd0d4a559623d8089fde5af9d91"
         },
         {
             "file_path": "reports/LAB8/artifacts_manifest.json",
-            "size_bytes": 16565,
-            "sha256_hash": "e9c5e25645ac6e2096cfc1b04c335e63aa9a76c0bcb3a082ef1301c912503e20"
+            "size_bytes": 16167,
+            "sha256_hash": "447fdf5ff3745d51b25af1f5f16364d72ef4b66ce53d673eb806fc45ea8a1cdb"
         },
         {
             "file_path": "reports/LAB8/defense_checklist.md",
-            "size_bytes": 2737,
-            "sha256_hash": "1eb1a517c9a8f0b6b0786e271c23122342fcdd9ec22b4ef11fad51aec0c5ca52"
+            "size_bytes": 2721,
+            "sha256_hash": "1953d67dae6d22c1b421b1d54aebbd2bf6d6e11f130b6a756c366b5466f76924"
         },
         {
             "file_path": "reports/LAB8/install.log",
@@ -262,13 +262,13 @@
         },
         {
             "file_path": "reports/LAB8/lab8_report.md",
-            "size_bytes": 6959,
-            "sha256_hash": "cd59475bfe3af6e33ff16f33be330a269edce2119b7a913b7c822a20d330ab79"
+            "size_bytes": 6907,
+            "sha256_hash": "c8eeaf7210c8358f75ae402cf10835a3ad833a10fc98057d30551ee3cf094bf2"
         },
         {
             "file_path": "reports/LAB8/source_metrics_compare.csv",
-            "size_bytes": 178,
-            "sha256_hash": "994287047ee28e16375cce63a9784e37e52c9ab7ab04d9301e6176c7eaf772aa"
+            "size_bytes": 175,
+            "sha256_hash": "7fb45dafd443a8255cdfdd0e62a1fabfe7044ffa930f59161536d7d54450149c"
         },
         {
             "file_path": "configs/config_schema.py",
@@ -277,8 +277,8 @@
         },
         {
             "file_path": "src/api/monitor.py",
-            "size_bytes": 2026,
-            "sha256_hash": "b39cdd5b1f56b6076a5c07c6961cbf99a313f1acc78cad1a45a40821dbc64f36"
+            "size_bytes": 2704,
+            "sha256_hash": "de3b876175cefff74bb7ea06792702473bf0b21409edd949bed78a6738ee0348"
         },
         {
             "file_path": "src/api/service.py",
@@ -352,8 +352,8 @@
         },
         {
             "file_path": "src/tests/test_api.py",
-            "size_bytes": 2058,
-            "sha256_hash": "64b29c3de970d5e8519fc082520089c7a2b45947ed2c521aa0cec8c8f6a3c93a"
+            "size_bytes": 2397,
+            "sha256_hash": "a985b3fc91958819724acd418968f43c7b045c7188db8cdcb3743267e51d3663"
         },
         {
             "file_path": "src/tests/test_generator.py",
@@ -361,9 +361,14 @@
             "sha256_hash": "1c35d73ea7150a76f1d2f0e67ada61a13def6540e7ac8c3b14be0bb4b81cf90c"
         },
         {
+            "file_path": "src/tests/test_stress.py",
+            "size_bytes": 2313,
+            "sha256_hash": "3d43aa550f8ed03308e8e15082e8263d5dcd009d026c862daac855cec3dc86fa"
+        },
+        {
             "file_path": "src/utils/alerts.py",
-            "size_bytes": 2117,
-            "sha256_hash": "f798148ed87adbc0bffedab1cb94c2b508b0d1589f615ac5841b61dbfeec3d0e"
+            "size_bytes": 2059,
+            "sha256_hash": "41b1e0a4886bca1be8bac6a32364b4d460a8dd4a5b70b4ac62917242342a3d55"
         },
         {
             "file_path": "src/utils/drift_monitor.py",
@@ -371,9 +376,14 @@
             "sha256_hash": "cf92f9bcf51771b1dffc65f8e52b2f499c0d1459c88dc7aca638e29b13c67835"
         },
         {
+            "file_path": "src/utils/integration_drill.py",
+            "size_bytes": 1636,
+            "sha256_hash": "0a6a177bda89bbe97b1151ca29ba8a826f13edc43c65d689048a379731f57cc9"
+        },
+        {
             "file_path": "src/utils/manifest_builder.py",
-            "size_bytes": 1852,
-            "sha256_hash": "939e2c3d9b67a5d78ec3ce853edafce4fe734db15ad5331eddc79734398159f9"
+            "size_bytes": 1798,
+            "sha256_hash": "df0fb8f67f29a0bc7741830f8f98660fb2336d68da4a806cb9d59a74f167e224"
         },
         {
             "file_path": "src/utils/metrics_compare.py",
@@ -392,8 +402,8 @@
         },
         {
             "file_path": "src/utils/run_all_drills.py",
-            "size_bytes": 3489,
-            "sha256_hash": "8914302e521225cdc84bfafc40570b2a8d4857bbacd8584e4b86f96d81ceb069"
+            "size_bytes": 3407,
+            "sha256_hash": "0937dace7696a80344205467de735351aa2a48f96387a3d0b9fb6042962f981d"
         }
     ]
 }
